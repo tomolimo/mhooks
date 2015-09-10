@@ -38,7 +38,9 @@ function plugin_init_mhooks() {
    $plug = new Plugin ;
    if ($plug->isActivated('mhooks')) {
        initRunkit(   array( 'Ticket' => array( 'showForm' ),
-                            'Computer' => array( 'showForm' ) ,
+                            'Computer' => array( 'showForm' ),
+                            'CommonGLPI' => array( 'displayStandardTab' ),
+                            'TicketFollowup' => array( 'showInTicketSumnary', 'showFormButtons', 'showFormHeader' ),
                             'Reminder' => array( 'showForm' ) 
                           ) 
                  ) ;
@@ -50,7 +52,7 @@ function plugin_init_mhooks() {
 function plugin_version_mhooks() {
    return array(
       'name' => "More Hooks",
-      'version' => "1.0.0",
+      'version' => "1.1.0",
       'license' => "GPLv2+",
       'author' => "Olivier Moron",
       'minGlpiVersion' => "0.83+"
