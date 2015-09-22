@@ -5,7 +5,7 @@ In particular currently providing pre_show_item and post_show_item for Ticket, C
 Added pre_show_item and post_show_item to TicketFollowup and CommonGLPI.
 Added show_form_buttons and show_form_header to TicketFollowup (this is used by plugin TicketDocument).
 
-Currently tested with GLPI 0.83.8
+Currently tested with GLPI 0.83.8, 0.85.4 and 0.85.5
 
 
 # Pre-requisites:
