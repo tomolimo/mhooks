@@ -6,6 +6,7 @@ Added pre_show_item and post_show_item to TicketFollowup and CommonGLPI.
 Added show_form_buttons and show_form_header to TicketFollowup (this is used by plugin TicketDocument: to come).
 
 Currently tested with:
+
   GLPI 0.83, 0.85 and 0.90
   
   PHP 5.3, 5.4
