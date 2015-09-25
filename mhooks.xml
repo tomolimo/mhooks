@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <root>
-   <name>mHooks</name>
+   <name>More Hooks</name>
    <key>mhooks</key>
    <state>stable</state>
    <logo></logo>
@@ -9,17 +8,21 @@
          <en>Provides more hooks to GLPI plugins.</en>
       </short>
       <long>
-         <en>To provide more hooks to GLPI plugins using runkit integration. In particular currently providing pre_show_item and post_show_item for Ticket, Computer and Reminder items
+         <en># mhooks
+To provide more hooks to GLPI plugins using runkit integration.
+In particular currently providing pre_show_item and post_show_item for Ticket, TicketFollowup, CommonGLPI, Computer and Reminder items
+And providing show_form_buttons and show_form_header to TicketFollowup (this is used by plugin TicketDocument: to come).
 
-Added pre_show_item and post_show_item to TicketFollowup and CommonGLPI. Added show_form_buttons and show_form_header to TicketFollowup.
+Currently tested with:
 
-This plugin is currentlyused by plugin 'lock'. https://github.com/tomolimo/lock
+  GLPI 0.83, 0.85 and 0.90
+  
+  PHP 5.3, 5.4
 
-Currently tested with: 
-GLPI 0.83, 0.85 and 0.90
-PHP 5.3, 5.4.
 
-Note: needs PHP module 'runkit'.</en>		 
+# Pre-requisites:
+This plugin needs 'runkit' PHP module.
+</en>		 
       </long>
    </description>
    <homepage>https://github.com/tomolimo/mhooks</homepage>
@@ -32,19 +35,7 @@ Note: needs PHP module 'runkit'.</en>
    <versions>
 	<version>
           <num>1.1.0</num>
-          <compatibility>0.83</compatibility>
-	  </version>
-	<version>
-          <num>1.1.0</num>
-          <compatibility>0.84</compatibility>
-	  </version>
-	<version>
-          <num>1.1.0</num>
           <compatibility>0.85</compatibility>
-	  </version>
-	<version>
-          <num>1.1.0</num>
-          <compatibility>0.90</compatibility>
 	  </version>
    </versions>
    <langs>
@@ -57,6 +48,6 @@ Note: needs PHP module 'runkit'.</en>
          </en>
    </tags>
    <screenshots>
-   	
+   	<screenshot></screenshot>
    </screenshots>
 </root>
