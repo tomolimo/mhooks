@@ -7,6 +7,7 @@ Added show_form_buttons and show_form_header to TicketFollowup (this is used by 
 
 Currently tested with:
   GLPI 0.83, 0.85 and 0.90
+  
   PHP 5.3, 5.4
 
 
