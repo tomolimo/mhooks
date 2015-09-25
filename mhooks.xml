@@ -8,21 +8,7 @@
          <en>Provides more hooks to GLPI plugins.</en>
       </short>
       <long>
-         <en># mhooks
-To provide more hooks to GLPI plugins using runkit integration.
-In particular currently providing pre_show_item and post_show_item for Ticket, TicketFollowup, CommonGLPI, Computer and Reminder items
-And providing show_form_buttons and show_form_header to TicketFollowup (this is used by plugin TicketDocument: to come).
-
-Currently tested with:
-
-  GLPI 0.83, 0.85 and 0.90
-  
-  PHP 5.3, 5.4
-
-
-# Pre-requisites:
-This plugin needs 'runkit' PHP module.
-</en>		 
+         <en>Provides more hooks to GLPI plugins.</en>		 
       </long>
    </description>
    <homepage>https://github.com/tomolimo/mhooks</homepage>
