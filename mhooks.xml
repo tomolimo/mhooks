@@ -2,7 +2,7 @@
    <name>More Hooks</name>
    <key>mhooks</key>
    <state>stable</state>
-   <logo></logo>
+   <logo>https://raw.githubusercontent.com/tomolimo/mhooks/master/plugin.png</logo>
    <description>
       <short>
          <en>Provides more hooks to GLPI plugins.</en>
