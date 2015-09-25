@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <name>mHooks</name>
+   <key>mhooks</key>
+   <state>stable</state>
+    <logo>https://github.com/tomolimo/mhooks</logo>
+   <description>
+      <short>
+         <en><![CDATA[Provides more hooks to GLPI plugins.]]></en>
+		 <lang>
+		 </lang>
+      </short>
+      <long>
+         <en><![CDATA[To provide more hooks to GLPI plugins using runkit integration. In particular currently providing pre_show_item and post_show_item for Ticket, Computer and Reminder items
+
+Added pre_show_item and post_show_item to TicketFollowup and CommonGLPI. Added show_form_buttons and show_form_header to TicketFollowup.
+
+This plugin is currentlyused by plugin 'lock'. https://github.com/tomolimo/lock
+
+Currently tested with: 
+GLPI 0.83, 0.85 and 0.90
+PHP 5.3, 5.4.
+
+Note: needs PHP module 'runkit' ]]></en>
+		 <lang>
+		 </lang>
+      </long>
+   </description>
+   <homepage>https://github.com/tomolimo/mhooks</homepage>
+   <download>https://github.com/tomolimo/mhooks/releases</download>
+   <issues>https://github.com/tomolimo/mhooks/issues</issues>
+   <readme>https://github.com/tomolimo/mhooks/blob/master/README.md</readme>
+   <authors>
+      <author>Olivier Moron </author>
+   </authors>
+   <versions>
+   <version>
+          <num>1.1.0</num>
+          <compatibility>0.83</compatibility>
+          <num>1.1.0</num>
+          <compatibility>0.84</compatibility>
+          <num>1.1.0</num>
+          <compatibility>0.85</compatibility>
+          <num>1.1.0</num>
+          <compatibility>0.90</compatibility>
+      </version>
+   </versions>
+   <langs>
+      <lang>en_GB</lang>
+   </langs>
+   <license><![CDATA[GPL v2+]]></license>
+   <tags>
+         <en>
+            <tag>Plugins</tag>
+         </en>
+		 <lang>
+		 </lang>
+   </tags>
+    <screenshots>
+   </screenshots>
+</root>
