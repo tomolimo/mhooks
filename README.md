@@ -9,7 +9,7 @@ Currently tested with:
 
   GLPI 0.83, 0.85 and 0.90
   
-  PHP 5.3, 5.4
+  PHP 5.3, 5.4, 5.6
 
 
 # Pre-requisites:
