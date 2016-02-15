@@ -10,13 +10,13 @@
  */
 class CommonGLPI {
     
-       static function displayStandardTab(CommonGLPI $item, $tab, $withtemplate=0) {
+    static function displayStandardTab(CommonGLPI $item, $tab, $withtemplate=0, $options=array()) {
 
            if( $tab != -1 )  {// in case of all tabs then will not call the hooks
                Plugin::doHook('pre_show_item', $item);
            }
            
-           $ret = CommonGLPI::plugin_mhooks_displayStandardTab_original( $item, $tab, $withtemplate ) ;
+           $ret = CommonGLPI::plugin_mhooks_displayStandardTab_original( $item, $tab, $withtemplate, $options ) ;
            
            if( $tab != -1 ) {// in case of all tabs then will not call the hooks
                Plugin::doHook('post_show_item', $item);

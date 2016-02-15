@@ -52,7 +52,7 @@ function plugin_init_mhooks() {
 function plugin_version_mhooks() {
    return array(
       'name' => "More Hooks",
-      'version' => "1.1.0",
+      'version' => "1.2.0",
       'license' => "GPLv2+",
       'author' => "Olivier Moron",
       'minGlpiVersion' => "0.83+"
